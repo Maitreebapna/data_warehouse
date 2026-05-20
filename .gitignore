@@ -1,0 +1,17 @@
+# Generated files - run scripts locally to regenerate
+data_warehouse.db
+dashboard_data.json
+query_results.json
+schema_info.json
+
+# Source Excel data (private)
+proof of originality/
+
+# Temp/helper scripts
+cleanup.py
+fix_*.py
+
+# Python cache
+__pycache__/
+*.pyc
+.env
