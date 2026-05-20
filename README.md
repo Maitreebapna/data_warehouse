@@ -30,60 +30,10 @@ Sheets included:
 - `business overview` — product catalogue with pricing
 - `june_month_sales`, `july_month_sales`, `august_month_sales` — monthly detail
 
-> Dataset file is not included in this repo (private business data). Place it at:
-> `proof of originality/kesar kasturi.xlsx`
 
 ---
 
-# Setup Instructions
 
-## Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/data-warehouse-project
-cd data-warehouse-project
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# How to Run
-
-## Step 1 — Run ETL Pipeline
-
-```bash
-python etl_pipeline.py
-```
-
-This reads the Excel source, cleans the data, builds the Star Schema, and loads everything into `data_warehouse.db`.
-
-## Step 2 — Export Data for Dashboard
-
-```bash
-python export_json.py
-python run_queries.py
-```
-
-## Step 3 — View Dashboard
-
-```bash
-python -m http.server 8080
-```
-
-Open in browser:
-
-```
-http://localhost:8080/dashboard.html
-```
-
----
-
-# How It Works
 
 ## Architecture Overview
 
@@ -145,45 +95,6 @@ Implemented in `etl_pipeline.py`
 
 ---
 
-# OLAP Operations
-
-The warehouse supports:
-
-## Roll-Up
-
-```sql
-SELECT dm.month_name, SUM(fs.revenue) AS revenue
-FROM Fact_Sales fs JOIN Dim_Month dm ON fs.month_id = dm.month_id
-GROUP BY dm.month_name;
-```
-
-## Drill-Down
-
-```sql
-SELECT dd.full_date, SUM(fs.revenue) AS daily_revenue
-FROM Fact_Sales fs JOIN Dim_Date dd ON fs.date_id = dd.date_id
-GROUP BY dd.full_date ORDER BY dd.full_date;
-```
-
-## Slice
-
-```sql
-SELECT * FROM Fact_Sales fs
-JOIN Dim_Month dm ON fs.month_id = dm.month_id
-WHERE dm.month_name = 'July';
-```
-
-## Dice
-
-```sql
-SELECT * FROM Fact_Sales fs
-JOIN Dim_Product dp ON fs.product_id = dp.product_id
-JOIN Dim_Month dm ON fs.month_id = dm.month_id
-WHERE dp.product_name = 'mango pickle'
-  AND dm.month_name IN ('June', 'July');
-```
-
----
 
 # Dashboard Features
 
@@ -261,5 +172,3 @@ This project demonstrates:
 
 ---
 
-**Submitted by:** Maitree Bapna
-**Project:** Academic Data Warehouse Project — 2025
