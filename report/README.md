@@ -2,7 +2,6 @@
 ## Kesar Kasturi Pickle — Star Schema Analytics Platform
 
 **Period:** June 2025 – August 2025  
-**Technology:** SQLite · Python · Star Schema  
 **Submitted by:** Maitree  
 
 ---
@@ -138,24 +137,6 @@ Data cleaning steps applied:
 - Tables created with `PRAGMA foreign_keys = ON`
 - Data loaded via `pandas.DataFrame.to_sql()` with `if_exists='append'`
 - Transaction committed and connection closed
-
-```
-Excel (master_data) ──► pandas DataFrame ──► Clean & Transform
-                                                    │
-Excel (monthly)  ──────────────────────────────────┘
-                                                    ▼
-                                          Build Dimension Tables
-                                          (Dim_Date, Dim_Product, Dim_Month)
-                                                    │
-                                                    ▼
-                                          Build Fact_Sales
-                                                    │
-                                                    ▼
-                                          Aggregate Summary Tables
-                                                    │
-                                                    ▼
-                                          Load → data_warehouse.db (SQLite)
-```
 
 ---
 
