@@ -1,0 +1,1468 @@
+{
+  "metadata": {
+    "cube_name": "Kesar Kasturi Pickle OLAP Cube",
+    "company": "Shri Nakoda Food Industries",
+    "dimensions": [
+      "Month",
+      "Product",
+      "Package Size"
+    ],
+    "measures": [
+      "total_revenue",
+      "total_profit",
+      "total_units",
+      "total_transactions",
+      "avg_margin_pct"
+    ],
+    "period": "June - August 2025",
+    "total_cells": 66
+  },
+  "slices": {
+    "full_cube": [
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "0",
+        "total_revenue": 11000.0,
+        "total_profit": 6659.4,
+        "total_units": 11.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 60.54
+      },
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "1000g",
+        "total_revenue": 44000.0,
+        "total_profit": 26637.6,
+        "total_units": 22.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 60.54
+      },
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "100g",
+        "total_revenue": 11200.0,
+        "total_profit": 8442.0,
+        "total_units": 7.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 75.38
+      },
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "200g",
+        "total_revenue": 2175.0,
+        "total_profit": 1583.25,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 72.79
+      },
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "5000g",
+        "total_revenue": 23520.0,
+        "total_profit": 12468.96,
+        "total_units": 14.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 53.01
+      },
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "500g",
+        "total_revenue": 6240.0,
+        "total_profit": 3872.4,
+        "total_units": 3.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 62.06
+      },
+      {
+        "month_name": "August",
+        "product_name": "lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 4000.0,
+        "total_profit": 1811.6,
+        "total_units": 2.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 45.29
+      },
+      {
+        "month_name": "August",
+        "product_name": "lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 2175.0,
+        "total_profit": 1354.5,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 62.28
+      },
+      {
+        "month_name": "August",
+        "product_name": "lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 5040.0,
+        "total_profit": 1757.16,
+        "total_units": 3.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 34.86
+      },
+      {
+        "month_name": "August",
+        "product_name": "lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 83200.0,
+        "total_profit": 39440.0,
+        "total_units": 40.0,
+        "total_transactions": 8,
+        "avg_margin_pct": 47.4
+      },
+      {
+        "month_name": "August",
+        "product_name": "mango pickle",
+        "package_size": "0",
+        "total_revenue": 3464.0,
+        "total_profit": 1081.78,
+        "total_units": 2.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 31.28
+      },
+      {
+        "month_name": "August",
+        "product_name": "mango pickle",
+        "package_size": "1000g",
+        "total_revenue": 16000.0,
+        "total_profit": 4788.8,
+        "total_units": 8.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 29.93
+      },
+      {
+        "month_name": "August",
+        "product_name": "mango pickle",
+        "package_size": "100g",
+        "total_revenue": 1600.0,
+        "total_profit": 900.0,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 56.25
+      },
+      {
+        "month_name": "August",
+        "product_name": "mango pickle",
+        "package_size": "200g",
+        "total_revenue": 69600.0,
+        "total_profit": 35976.0,
+        "total_units": 32.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 51.69
+      },
+      {
+        "month_name": "August",
+        "product_name": "mango pickle",
+        "package_size": "500g",
+        "total_revenue": 49920.0,
+        "total_profit": 16291.2,
+        "total_units": 24.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 32.63
+      },
+      {
+        "month_name": "August",
+        "product_name": "mixed pickle",
+        "package_size": "1000g",
+        "total_revenue": 8000.0,
+        "total_profit": 3425.8,
+        "total_units": 4.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 41.39
+      },
+      {
+        "month_name": "August",
+        "product_name": "mixed pickle",
+        "package_size": "200g",
+        "total_revenue": 23925.0,
+        "total_profit": 15204.75,
+        "total_units": 11.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 63.55
+      },
+      {
+        "month_name": "August",
+        "product_name": "mixed pickle",
+        "package_size": "5000g",
+        "total_revenue": 30240.0,
+        "total_profit": 11200.32,
+        "total_units": 18.0,
+        "total_transactions": 9,
+        "avg_margin_pct": 37.04
+      },
+      {
+        "month_name": "August",
+        "product_name": "mixed pickle",
+        "package_size": "500g",
+        "total_revenue": 52000.0,
+        "total_profit": 25560.0,
+        "total_units": 25.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 49.15
+      },
+      {
+        "month_name": "August",
+        "product_name": "sweet lemon pickle",
+        "package_size": "0",
+        "total_revenue": 33600.0,
+        "total_profit": 1383.2,
+        "total_units": 2.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 4.12
+      },
+      {
+        "month_name": "August",
+        "product_name": "sweet lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 8400.0,
+        "total_profit": 345.8,
+        "total_units": 5.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 4.12
+      },
+      {
+        "month_name": "July",
+        "product_name": "green chilli pickle",
+        "package_size": "1000g",
+        "total_revenue": 44000.0,
+        "total_profit": 26637.6,
+        "total_units": 22.0,
+        "total_transactions": 6,
+        "avg_margin_pct": 60.54
+      },
+      {
+        "month_name": "July",
+        "product_name": "green chilli pickle",
+        "package_size": "200g",
+        "total_revenue": 17400.0,
+        "total_profit": 12666.0,
+        "total_units": 8.0,
+        "total_transactions": 6,
+        "avg_margin_pct": 72.79
+      },
+      {
+        "month_name": "July",
+        "product_name": "green chilli pickle",
+        "package_size": "5000g",
+        "total_revenue": 8400.0,
+        "total_profit": 4453.2,
+        "total_units": 5.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 53.01
+      },
+      {
+        "month_name": "July",
+        "product_name": "green chilli pickle",
+        "package_size": "500g",
+        "total_revenue": 16640.0,
+        "total_profit": 10326.4,
+        "total_units": 8.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 62.06
+      },
+      {
+        "month_name": "July",
+        "product_name": "lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 22000.0,
+        "total_profit": 9963.8,
+        "total_units": 11.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 45.29
+      },
+      {
+        "month_name": "July",
+        "product_name": "lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 36975.0,
+        "total_profit": 23026.5,
+        "total_units": 17.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 62.28
+      },
+      {
+        "month_name": "July",
+        "product_name": "lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 36960.0,
+        "total_profit": 12885.84,
+        "total_units": 22.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 34.86
+      },
+      {
+        "month_name": "July",
+        "product_name": "lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 39520.0,
+        "total_profit": 18734.0,
+        "total_units": 19.0,
+        "total_transactions": 6,
+        "avg_margin_pct": 47.4
+      },
+      {
+        "month_name": "July",
+        "product_name": "mango pickle",
+        "package_size": "0",
+        "total_revenue": 435.0,
+        "total_profit": 224.85,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 51.69
+      },
+      {
+        "month_name": "July",
+        "product_name": "mango pickle",
+        "package_size": "1000g",
+        "total_revenue": 40000.0,
+        "total_profit": 11972.0,
+        "total_units": 20.0,
+        "total_transactions": 8,
+        "avg_margin_pct": 29.93
+      },
+      {
+        "month_name": "July",
+        "product_name": "mango pickle",
+        "package_size": "200g",
+        "total_revenue": 15225.0,
+        "total_profit": 7869.75,
+        "total_units": 7.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 51.69
+      },
+      {
+        "month_name": "July",
+        "product_name": "mango pickle",
+        "package_size": "5000g",
+        "total_revenue": 57120.0,
+        "total_profit": 9472.4,
+        "total_units": 34.0,
+        "total_transactions": 10,
+        "avg_margin_pct": 16.58
+      },
+      {
+        "month_name": "July",
+        "product_name": "mango pickle",
+        "package_size": "500g",
+        "total_revenue": 95680.0,
+        "total_profit": 31224.8,
+        "total_units": 46.0,
+        "total_transactions": 9,
+        "avg_margin_pct": 32.63
+      },
+      {
+        "month_name": "July",
+        "product_name": "mixed pickle",
+        "package_size": "0",
+        "total_revenue": 1132.0,
+        "total_profit": 550.32,
+        "total_units": 2.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 48.13
+      },
+      {
+        "month_name": "July",
+        "product_name": "mixed pickle",
+        "package_size": "1000g",
+        "total_revenue": 16000.0,
+        "total_profit": 7539.2,
+        "total_units": 8.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 47.12
+      },
+      {
+        "month_name": "July",
+        "product_name": "mixed pickle",
+        "package_size": "5000g",
+        "total_revenue": 94080.0,
+        "total_profit": 34845.44,
+        "total_units": 56.0,
+        "total_transactions": 11,
+        "avg_margin_pct": 37.04
+      },
+      {
+        "month_name": "July",
+        "product_name": "mixed pickle",
+        "package_size": "500g",
+        "total_revenue": 16640.0,
+        "total_profit": 8179.2,
+        "total_units": 8.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 49.15
+      },
+      {
+        "month_name": "July",
+        "product_name": "sweet lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 2000.0,
+        "total_profit": 389.2,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 19.46
+      },
+      {
+        "month_name": "July",
+        "product_name": "sweet lemon pickle",
+        "package_size": "100g",
+        "total_revenue": 11200.0,
+        "total_profit": 5565.0,
+        "total_units": 7.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 49.69
+      },
+      {
+        "month_name": "July",
+        "product_name": "sweet lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 87000.0,
+        "total_profit": 38700.0,
+        "total_units": 40.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 44.48
+      },
+      {
+        "month_name": "July",
+        "product_name": "sweet lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 6720.0,
+        "total_profit": 276.64,
+        "total_units": 4.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 4.12
+      },
+      {
+        "month_name": "July",
+        "product_name": "sweet lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 2080.0,
+        "total_profit": 469.2,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 22.56
+      },
+      {
+        "month_name": "June",
+        "product_name": "green chilli pickle",
+        "package_size": "1000g",
+        "total_revenue": 14000.0,
+        "total_profit": 8475.6,
+        "total_units": 7.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 60.54
+      },
+      {
+        "month_name": "June",
+        "product_name": "green chilli pickle",
+        "package_size": "200g",
+        "total_revenue": 8700.0,
+        "total_profit": 6333.0,
+        "total_units": 4.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 72.79
+      },
+      {
+        "month_name": "June",
+        "product_name": "green chilli pickle",
+        "package_size": "5000g",
+        "total_revenue": 6720.0,
+        "total_profit": 3562.56,
+        "total_units": 4.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 53.01
+      },
+      {
+        "month_name": "June",
+        "product_name": "green chilli pickle",
+        "package_size": "500g",
+        "total_revenue": 56160.0,
+        "total_profit": 34851.6,
+        "total_units": 27.0,
+        "total_transactions": 9,
+        "avg_margin_pct": 62.06
+      },
+      {
+        "month_name": "June",
+        "product_name": "lemon pickle",
+        "package_size": "0",
+        "total_revenue": 728.0,
+        "total_profit": 345.1,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 47.4
+      },
+      {
+        "month_name": "June",
+        "product_name": "lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 2000.0,
+        "total_profit": 905.8,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 45.29
+      },
+      {
+        "month_name": "June",
+        "product_name": "lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 13050.0,
+        "total_profit": 8127.0,
+        "total_units": 6.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 62.28
+      },
+      {
+        "month_name": "June",
+        "product_name": "lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 63840.0,
+        "total_profit": 22257.36,
+        "total_units": 38.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 34.86
+      },
+      {
+        "month_name": "June",
+        "product_name": "lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 16640.0,
+        "total_profit": 7888.0,
+        "total_units": 8.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 47.4
+      },
+      {
+        "month_name": "June",
+        "product_name": "mango pickle",
+        "package_size": "1000g",
+        "total_revenue": 96000.0,
+        "total_profit": 28732.8,
+        "total_units": 48.0,
+        "total_transactions": 11,
+        "avg_margin_pct": 29.93
+      },
+      {
+        "month_name": "June",
+        "product_name": "mango pickle",
+        "package_size": "200g",
+        "total_revenue": 43500.0,
+        "total_profit": 22485.0,
+        "total_units": 20.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 51.69
+      },
+      {
+        "month_name": "June",
+        "product_name": "mango pickle",
+        "package_size": "5000g",
+        "total_revenue": 11760.0,
+        "total_profit": 1950.2,
+        "total_units": 7.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 16.58
+      },
+      {
+        "month_name": "June",
+        "product_name": "mango pickle",
+        "package_size": "500g",
+        "total_revenue": 58240.0,
+        "total_profit": 19006.4,
+        "total_units": 28.0,
+        "total_transactions": 12,
+        "avg_margin_pct": 32.63
+      },
+      {
+        "month_name": "June",
+        "product_name": "mixed pickle",
+        "package_size": "0",
+        "total_revenue": 59600.0,
+        "total_profit": 22155.36,
+        "total_units": 8.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 42.08
+      },
+      {
+        "month_name": "June",
+        "product_name": "mixed pickle",
+        "package_size": "1000g",
+        "total_revenue": 52000.0,
+        "total_profit": 24502.4,
+        "total_units": 26.0,
+        "total_transactions": 7,
+        "avg_margin_pct": 47.12
+      },
+      {
+        "month_name": "June",
+        "product_name": "mixed pickle",
+        "package_size": "100g",
+        "total_revenue": 1600.0,
+        "total_profit": 1072.0,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 67.0
+      },
+      {
+        "month_name": "June",
+        "product_name": "mixed pickle",
+        "package_size": "5000g",
+        "total_revenue": 18480.0,
+        "total_profit": 6844.64,
+        "total_units": 11.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 37.04
+      },
+      {
+        "month_name": "June",
+        "product_name": "mixed pickle",
+        "package_size": "500g",
+        "total_revenue": 39520.0,
+        "total_profit": 19425.6,
+        "total_units": 19.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 49.15
+      },
+      {
+        "month_name": "June",
+        "product_name": "sweet lemon pickle",
+        "package_size": "0",
+        "total_revenue": 348.0,
+        "total_profit": 154.8,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 44.48
+      },
+      {
+        "month_name": "June",
+        "product_name": "sweet lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 22000.0,
+        "total_profit": 4281.2,
+        "total_units": 11.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 19.46
+      },
+      {
+        "month_name": "June",
+        "product_name": "sweet lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 4350.0,
+        "total_profit": 1935.0,
+        "total_units": 2.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 44.48
+      },
+      {
+        "month_name": "June",
+        "product_name": "sweet lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 5040.0,
+        "total_profit": 207.48,
+        "total_units": 3.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 4.12
+      },
+      {
+        "month_name": "June",
+        "product_name": "sweet lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 41600.0,
+        "total_profit": 9384.0,
+        "total_units": 20.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 22.56
+      }
+    ],
+    "rollup_month_product": [
+      {
+        "month_name": "August",
+        "product_name": "green chilli pickle",
+        "package_size": "All",
+        "total_revenue": 98135.0,
+        "total_profit": 59663.61,
+        "total_units": 58.0,
+        "total_transactions": 15,
+        "avg_margin_pct": 61.43
+      },
+      {
+        "month_name": "August",
+        "product_name": "lemon pickle",
+        "package_size": "All",
+        "total_revenue": 94415.0,
+        "total_profit": 44363.26,
+        "total_units": 46.0,
+        "total_transactions": 11,
+        "avg_margin_pct": 47.42
+      },
+      {
+        "month_name": "August",
+        "product_name": "mango pickle",
+        "package_size": "All",
+        "total_revenue": 140584.0,
+        "total_profit": 59037.78,
+        "total_units": 67.0,
+        "total_transactions": 13,
+        "avg_margin_pct": 38.22
+      },
+      {
+        "month_name": "August",
+        "product_name": "mixed pickle",
+        "package_size": "All",
+        "total_revenue": 114165.0,
+        "total_profit": 55390.87,
+        "total_units": 58.0,
+        "total_transactions": 16,
+        "avg_margin_pct": 41.78
+      },
+      {
+        "month_name": "August",
+        "product_name": "sweet lemon pickle",
+        "package_size": "All",
+        "total_revenue": 42000.0,
+        "total_profit": 1729.0,
+        "total_units": 7.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 4.12
+      },
+      {
+        "month_name": "July",
+        "product_name": "green chilli pickle",
+        "package_size": "All",
+        "total_revenue": 86440.0,
+        "total_profit": 54083.2,
+        "total_units": 43.0,
+        "total_transactions": 21,
+        "avg_margin_pct": 62.97
+      },
+      {
+        "month_name": "July",
+        "product_name": "lemon pickle",
+        "package_size": "All",
+        "total_revenue": 135455.0,
+        "total_profit": 64610.14,
+        "total_units": 69.0,
+        "total_transactions": 15,
+        "avg_margin_pct": 45.18
+      },
+      {
+        "month_name": "July",
+        "product_name": "mango pickle",
+        "package_size": "All",
+        "total_revenue": 208460.0,
+        "total_profit": 60763.8,
+        "total_units": 108.0,
+        "total_transactions": 32,
+        "avg_margin_pct": 29.92
+      },
+      {
+        "month_name": "July",
+        "product_name": "mixed pickle",
+        "package_size": "All",
+        "total_revenue": 127852.0,
+        "total_profit": 51114.16,
+        "total_units": 74.0,
+        "total_transactions": 23,
+        "avg_margin_pct": 42.83
+      },
+      {
+        "month_name": "July",
+        "product_name": "sweet lemon pickle",
+        "package_size": "All",
+        "total_revenue": 109000.0,
+        "total_profit": 45400.04,
+        "total_units": 53.0,
+        "total_transactions": 8,
+        "avg_margin_pct": 30.48
+      },
+      {
+        "month_name": "June",
+        "product_name": "green chilli pickle",
+        "package_size": "All",
+        "total_revenue": 85580.0,
+        "total_profit": 53222.76,
+        "total_units": 42.0,
+        "total_transactions": 14,
+        "avg_margin_pct": 61.32
+      },
+      {
+        "month_name": "June",
+        "product_name": "lemon pickle",
+        "package_size": "All",
+        "total_revenue": 96258.0,
+        "total_profit": 39523.26,
+        "total_units": 54.0,
+        "total_transactions": 10,
+        "avg_margin_pct": 46.4
+      },
+      {
+        "month_name": "June",
+        "product_name": "mango pickle",
+        "package_size": "All",
+        "total_revenue": 209500.0,
+        "total_profit": 72174.4,
+        "total_units": 103.0,
+        "total_transactions": 31,
+        "avg_margin_pct": 33.19
+      },
+      {
+        "month_name": "June",
+        "product_name": "mixed pickle",
+        "package_size": "All",
+        "total_revenue": 171200.0,
+        "total_profit": 74000.0,
+        "total_units": 65.0,
+        "total_transactions": 17,
+        "avg_margin_pct": 44.97
+      },
+      {
+        "month_name": "June",
+        "product_name": "sweet lemon pickle",
+        "package_size": "All",
+        "total_revenue": 73338.0,
+        "total_profit": 15962.48,
+        "total_units": 37.0,
+        "total_transactions": 10,
+        "avg_margin_pct": 24.83
+      }
+    ],
+    "rollup_month_size": [
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "0",
+        "total_revenue": 48064.0,
+        "total_profit": 9124.38,
+        "total_units": 15.0,
+        "total_transactions": 5,
+        "avg_margin_pct": 37.55
+      },
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "1000g",
+        "total_revenue": 72000.0,
+        "total_profit": 36663.8,
+        "total_units": 36.0,
+        "total_transactions": 11,
+        "avg_margin_pct": 48.37
+      },
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "100g",
+        "total_revenue": 12800.0,
+        "total_profit": 9342.0,
+        "total_units": 8.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 69.0
+      },
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "200g",
+        "total_revenue": 97875.0,
+        "total_profit": 54118.5,
+        "total_units": 45.0,
+        "total_transactions": 6,
+        "avg_margin_pct": 58.95
+      },
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "5000g",
+        "total_revenue": 67200.0,
+        "total_profit": 25772.24,
+        "total_units": 40.0,
+        "total_transactions": 16,
+        "avg_margin_pct": 36.78
+      },
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "500g",
+        "total_revenue": 191360.0,
+        "total_profit": 85163.6,
+        "total_units": 92.0,
+        "total_transactions": 17,
+        "avg_margin_pct": 44.23
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "0",
+        "total_revenue": 1567.0,
+        "total_profit": 775.17,
+        "total_units": 3.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 49.32
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "1000g",
+        "total_revenue": 124000.0,
+        "total_profit": 56501.8,
+        "total_units": 62.0,
+        "total_transactions": 25,
+        "avg_margin_pct": 43.37
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "100g",
+        "total_revenue": 11200.0,
+        "total_profit": 5565.0,
+        "total_units": 7.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 49.69
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "200g",
+        "total_revenue": 156600.0,
+        "total_profit": 82262.25,
+        "total_units": 72.0,
+        "total_transactions": 12,
+        "avg_margin_pct": 62.52
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "5000g",
+        "total_revenue": 203280.0,
+        "total_profit": 61933.52,
+        "total_units": 121.0,
+        "total_transactions": 30,
+        "avg_margin_pct": 29.94
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "500g",
+        "total_revenue": 170560.0,
+        "total_profit": 68933.6,
+        "total_units": 82.0,
+        "total_transactions": 26,
+        "avg_margin_pct": 44.49
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "0",
+        "total_revenue": 60676.0,
+        "total_profit": 22655.26,
+        "total_units": 10.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 44.01
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "1000g",
+        "total_revenue": 186000.0,
+        "total_profit": 66897.8,
+        "total_units": 93.0,
+        "total_transactions": 23,
+        "avg_margin_pct": 37.58
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "100g",
+        "total_revenue": 1600.0,
+        "total_profit": 1072.0,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 67.0
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "200g",
+        "total_revenue": 69600.0,
+        "total_profit": 38880.0,
+        "total_units": 32.0,
+        "total_transactions": 10,
+        "avg_margin_pct": 54.48
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "5000g",
+        "total_revenue": 105840.0,
+        "total_profit": 34822.24,
+        "total_units": 63.0,
+        "total_transactions": 15,
+        "avg_margin_pct": 30.25
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "500g",
+        "total_revenue": 212160.0,
+        "total_profit": 90555.6,
+        "total_units": 102.0,
+        "total_transactions": 29,
+        "avg_margin_pct": 43.39
+      }
+    ],
+    "rollup_product_size": [
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "0",
+        "total_revenue": 11000.0,
+        "total_profit": 6659.4,
+        "total_units": 11.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 60.54
+      },
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "1000g",
+        "total_revenue": 102000.0,
+        "total_profit": 61750.8,
+        "total_units": 51.0,
+        "total_transactions": 13,
+        "avg_margin_pct": 60.54
+      },
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "100g",
+        "total_revenue": 11200.0,
+        "total_profit": 8442.0,
+        "total_units": 7.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 75.38
+      },
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "200g",
+        "total_revenue": 28275.0,
+        "total_profit": 20582.25,
+        "total_units": 13.0,
+        "total_transactions": 8,
+        "avg_margin_pct": 72.79
+      },
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "5000g",
+        "total_revenue": 38640.0,
+        "total_profit": 20484.72,
+        "total_units": 23.0,
+        "total_transactions": 10,
+        "avg_margin_pct": 53.01
+      },
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "500g",
+        "total_revenue": 79040.0,
+        "total_profit": 49050.4,
+        "total_units": 38.0,
+        "total_transactions": 15,
+        "avg_margin_pct": 62.06
+      },
+      {
+        "month_name": "All",
+        "product_name": "lemon pickle",
+        "package_size": "0",
+        "total_revenue": 728.0,
+        "total_profit": 345.1,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 47.4
+      },
+      {
+        "month_name": "All",
+        "product_name": "lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 28000.0,
+        "total_profit": 12681.2,
+        "total_units": 14.0,
+        "total_transactions": 7,
+        "avg_margin_pct": 45.29
+      },
+      {
+        "month_name": "All",
+        "product_name": "lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 52200.0,
+        "total_profit": 32508.0,
+        "total_units": 24.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 62.28
+      },
+      {
+        "month_name": "All",
+        "product_name": "lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 105840.0,
+        "total_profit": 36900.36,
+        "total_units": 63.0,
+        "total_transactions": 7,
+        "avg_margin_pct": 34.86
+      },
+      {
+        "month_name": "All",
+        "product_name": "lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 139360.0,
+        "total_profit": 66062.0,
+        "total_units": 67.0,
+        "total_transactions": 17,
+        "avg_margin_pct": 47.4
+      },
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "0",
+        "total_revenue": 3899.0,
+        "total_profit": 1306.63,
+        "total_units": 3.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 38.08
+      },
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "1000g",
+        "total_revenue": 152000.0,
+        "total_profit": 45493.6,
+        "total_units": 76.0,
+        "total_transactions": 21,
+        "avg_margin_pct": 29.93
+      },
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "100g",
+        "total_revenue": 1600.0,
+        "total_profit": 900.0,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 56.25
+      },
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "200g",
+        "total_revenue": 128325.0,
+        "total_profit": 66330.75,
+        "total_units": 59.0,
+        "total_transactions": 12,
+        "avg_margin_pct": 51.69
+      },
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "5000g",
+        "total_revenue": 68880.0,
+        "total_profit": 11422.6,
+        "total_units": 41.0,
+        "total_transactions": 13,
+        "avg_margin_pct": 16.58
+      },
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "500g",
+        "total_revenue": 203840.0,
+        "total_profit": 66522.4,
+        "total_units": 98.0,
+        "total_transactions": 26,
+        "avg_margin_pct": 32.63
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "0",
+        "total_revenue": 60732.0,
+        "total_profit": 22705.68,
+        "total_units": 10.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 45.11
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "1000g",
+        "total_revenue": 76000.0,
+        "total_profit": 35467.4,
+        "total_units": 38.0,
+        "total_transactions": 15,
+        "avg_margin_pct": 45.97
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "100g",
+        "total_revenue": 1600.0,
+        "total_profit": 1072.0,
+        "total_units": 1.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 67.0
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "200g",
+        "total_revenue": 23925.0,
+        "total_profit": 15204.75,
+        "total_units": 11.0,
+        "total_transactions": 1,
+        "avg_margin_pct": 63.55
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "5000g",
+        "total_revenue": 142800.0,
+        "total_profit": 52890.4,
+        "total_units": 85.0,
+        "total_transactions": 25,
+        "avg_margin_pct": 37.04
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "500g",
+        "total_revenue": 108160.0,
+        "total_profit": 53164.8,
+        "total_units": 52.0,
+        "total_transactions": 10,
+        "avg_margin_pct": 49.15
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "0",
+        "total_revenue": 33948.0,
+        "total_profit": 1538.0,
+        "total_units": 3.0,
+        "total_transactions": 2,
+        "avg_margin_pct": 24.3
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "1000g",
+        "total_revenue": 24000.0,
+        "total_profit": 4670.4,
+        "total_units": 12.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 19.46
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "100g",
+        "total_revenue": 11200.0,
+        "total_profit": 5565.0,
+        "total_units": 7.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 49.69
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "200g",
+        "total_revenue": 91350.0,
+        "total_profit": 40635.0,
+        "total_units": 42.0,
+        "total_transactions": 3,
+        "avg_margin_pct": 44.48
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "5000g",
+        "total_revenue": 20160.0,
+        "total_profit": 829.92,
+        "total_units": 12.0,
+        "total_transactions": 6,
+        "avg_margin_pct": 4.12
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "500g",
+        "total_revenue": 43680.0,
+        "total_profit": 9853.2,
+        "total_units": 21.0,
+        "total_transactions": 4,
+        "avg_margin_pct": 22.56
+      }
+    ],
+    "rollup_month": [
+      {
+        "month_name": "August",
+        "product_name": "All",
+        "package_size": "All",
+        "total_revenue": 489299.0,
+        "total_profit": 220184.52,
+        "total_units": 236.0,
+        "total_transactions": 58,
+        "avg_margin_pct": 45.19
+      },
+      {
+        "month_name": "July",
+        "product_name": "All",
+        "package_size": "All",
+        "total_revenue": 667207.0,
+        "total_profit": 275971.34,
+        "total_units": 347.0,
+        "total_transactions": 99,
+        "avg_margin_pct": 42.29
+      },
+      {
+        "month_name": "June",
+        "product_name": "All",
+        "package_size": "All",
+        "total_revenue": 635876.0,
+        "total_profit": 254882.9,
+        "total_units": 301.0,
+        "total_transactions": 82,
+        "avg_margin_pct": 41.03
+      }
+    ],
+    "rollup_product": [
+      {
+        "month_name": "All",
+        "product_name": "mango pickle",
+        "package_size": "All",
+        "total_revenue": 558544.0,
+        "total_profit": 191975.98,
+        "total_units": 278.0,
+        "total_transactions": 76,
+        "avg_margin_pct": 32.67
+      },
+      {
+        "month_name": "All",
+        "product_name": "mixed pickle",
+        "package_size": "All",
+        "total_revenue": 413217.0,
+        "total_profit": 180505.03,
+        "total_units": 197.0,
+        "total_transactions": 56,
+        "avg_margin_pct": 43.18
+      },
+      {
+        "month_name": "All",
+        "product_name": "lemon pickle",
+        "package_size": "All",
+        "total_revenue": 326128.0,
+        "total_profit": 148496.66,
+        "total_units": 169.0,
+        "total_transactions": 36,
+        "avg_margin_pct": 46.2
+      },
+      {
+        "month_name": "All",
+        "product_name": "green chilli pickle",
+        "package_size": "All",
+        "total_revenue": 270155.0,
+        "total_profit": 166969.57,
+        "total_units": 143.0,
+        "total_transactions": 50,
+        "avg_margin_pct": 62.04
+      },
+      {
+        "month_name": "All",
+        "product_name": "sweet lemon pickle",
+        "package_size": "All",
+        "total_revenue": 224338.0,
+        "total_profit": 63091.52,
+        "total_units": 97.0,
+        "total_transactions": 21,
+        "avg_margin_pct": 24.02
+      }
+    ],
+    "rollup_size": [
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "500g",
+        "total_revenue": 574080.0,
+        "total_profit": 244652.8,
+        "total_units": 276.0,
+        "total_transactions": 72,
+        "avg_margin_pct": 43.98
+      },
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "1000g",
+        "total_revenue": 382000.0,
+        "total_profit": 160063.4,
+        "total_units": 191.0,
+        "total_transactions": 59,
+        "avg_margin_pct": 42.04
+      },
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "5000g",
+        "total_revenue": 376320.0,
+        "total_profit": 122528.0,
+        "total_units": 224.0,
+        "total_transactions": 61,
+        "avg_margin_pct": 31.81
+      },
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "200g",
+        "total_revenue": 324075.0,
+        "total_profit": 175260.75,
+        "total_units": 149.0,
+        "total_transactions": 28,
+        "avg_margin_pct": 58.88
+      },
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "0",
+        "total_revenue": 110307.0,
+        "total_profit": 32554.81,
+        "total_units": 28.0,
+        "total_transactions": 12,
+        "avg_margin_pct": 42.65
+      },
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "100g",
+        "total_revenue": 25600.0,
+        "total_profit": 15979.0,
+        "total_units": 16.0,
+        "total_transactions": 7,
+        "avg_margin_pct": 60.44
+      }
+    ],
+    "grand_total": [
+      {
+        "month_name": "All",
+        "product_name": "All",
+        "package_size": "All",
+        "total_revenue": 1792382.0,
+        "total_profit": 751038.76,
+        "total_units": 884.0,
+        "total_transactions": 239,
+        "avg_margin_pct": 42.56
+      }
+    ]
+  }
+}

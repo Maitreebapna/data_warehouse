@@ -75,11 +75,21 @@ python run_queries.py
 python -m http.server 8080
 ```
 
+Or on Windows, run:
+
+```bat
+.\start_server.bat
+```
+
 Open in browser:
 
 ```
 http://localhost:8080/dashboard.html
 ```
+
+This dashboard now renders a 3D OLAP cube instead of tables.
+
+> Note: Run the server command from the project root so the browser can load `dashboard.html` and `query_results.json` correctly.
 
 ---
 

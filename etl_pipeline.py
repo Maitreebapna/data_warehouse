@@ -13,8 +13,20 @@ import pandas as pd
 import sqlite3
 import os
 from datetime import datetime
+from pathlib import Path
 
-EXCEL_PATH  = r"proof of originality/kesar kasturi.xlsx"
+DEFAULT_EXCEL = Path(r"proof of originality/kesar kasturi.xlsx")
+FALLBACK_EXCEL = Path(r"kesar kasturi.xlsx")
+EXCEL_PATH = DEFAULT_EXCEL if DEFAULT_EXCEL.exists() else FALLBACK_EXCEL
+
+if not EXCEL_PATH.exists():
+    raise FileNotFoundError(
+        f"Could not find Excel source file. Checked:\n"
+        f"  - {DEFAULT_EXCEL}\n"
+        f"  - {FALLBACK_EXCEL}\n"
+        f"Please place the workbook in one of these locations."
+    )
+
 DB_PATH     = "data_warehouse.db"
 
 # ---------------------------------------------------------
