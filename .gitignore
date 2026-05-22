@@ -3,6 +3,8 @@ data_warehouse.db
 dashboard_data.json
 query_results.json
 schema_info.json
+report/README.pdf
+report/report.html
 
 # Source Excel data (private)
 proof of originality/

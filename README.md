@@ -34,6 +34,66 @@ Sheets included:
 ---
 
 
+<<<<<<< HEAD
+=======
+## Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/data-warehouse-project
+cd data-warehouse-project
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# How to Run
+
+## Step 1 — Run ETL Pipeline
+
+```bash
+python etl_pipeline.py
+```
+
+This reads the Excel source, cleans the data, builds the Star Schema, and loads everything into `data_warehouse.db`.
+
+## Step 2 — Export Data for Dashboard
+
+```bash
+python export_json.py
+python run_queries.py
+```
+
+## Step 3 — View Dashboard
+
+```bash
+python -m http.server 8080
+```
+
+Or on Windows, run:
+
+```bat
+.\start_server.bat
+```
+
+Open in browser:
+
+```
+http://localhost:8080/dashboard.html
+```
+
+This dashboard now renders a 3D OLAP cube instead of tables.
+
+> Note: Run the server command from the project root so the browser can load `dashboard.html` and `query_results.json` correctly.
+
+---
+
+# How It Works
+>>>>>>> c167a2d (Updated  charts + OLAP cube; improve visuals)
 
 ## Architecture Overview
 
